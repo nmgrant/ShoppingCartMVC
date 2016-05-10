@@ -17,7 +17,7 @@ namespace Ch24ShoppingCartMVC.Controllers {
 				//CALL THE METHOD GetProductList 
 				var list = order.GetProductsList();
 				//CREATE THE SelectList products
-				products = new SelectList(list, "Name", id);
+				products = new SelectList(list, "ProductID", "Name", id);
 			}
 			//if no URL parameter, get first product from list and refresh
 			if (string.IsNullOrEmpty(id)) {

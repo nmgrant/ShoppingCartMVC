@@ -61,6 +61,7 @@ namespace Ch24ShoppingCartMVC.Models {
 		}
 		public ProductViewModel GetSelectedProduct(string id) {
 			if (this.products == null)
+				
 				//call the method ConvertToViewModel and pass the method GetProductByIdFromDataStore(id)
 				return ConvertToViewModel(GetProductByIdFromDataStore(id));
 
