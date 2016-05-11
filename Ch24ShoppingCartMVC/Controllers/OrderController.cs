@@ -32,7 +32,7 @@ namespace Ch24ShoppingCartMVC.Controllers {
 					 //Call the method GetOrderInfo to get an OrderViewModel object called model
 				var model = order.GetOrderInfo(id);
 				//Assign products to ProductsList property of model
-				products = model.ProductsList;
+				model.ProductsList = products;
 				//Assign the quantity of the SelectProduct of the model to 1
 				model.SelectedProduct.Quantity = 1;
 				//Send the model object to the view.
