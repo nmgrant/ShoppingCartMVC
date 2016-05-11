@@ -130,13 +130,14 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\CartController.cs" />
+    <Compile Include="Controllers\CheckOutController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OrderController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\CartModel.cs" />
-    <Compile Include="Models\CheckoutModel.cs" />
+    <Compile Include="Models\CheckOutModel.cs" />
     <Compile Include="Models\DataAccess\Halloween.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

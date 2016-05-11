@@ -4,6 +4,6 @@ using System.Linq;
 using System.Web;
 
 namespace Ch24ShoppingCartMVC.Models {
-	public class CheckoutModel {
+	public class CheckOutModel {
 	}
 }
