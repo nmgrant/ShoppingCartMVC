@@ -206,3 +206,4 @@ C:\Users\Nick\Documents\CECS475\Homework\ShoppingCartMVC\Ch24ShoppingCartMVC\bin
 C:\Users\Nick\Documents\CECS475\Homework\ShoppingCartMVC\Ch24ShoppingCartMVC\bin\System.Web.WebPages.Razor.xml
 C:\Users\Nick\Documents\CECS475\Homework\ShoppingCartMVC\Ch24ShoppingCartMVC\obj\Debug\Ch24ShoppingCartMVC.dll
 C:\Users\Nick\Documents\CECS475\Homework\ShoppingCartMVC\Ch24ShoppingCartMVC\obj\Debug\Ch24ShoppingCartMVC.pdb
+C:\Users\Nick\Documents\CECS475\Homework\ShoppingCartMVC\Ch24ShoppingCartMVC\obj\Debug\Ch24ShoppingCartMVC.csprojResolveAssemblyReference.cache
