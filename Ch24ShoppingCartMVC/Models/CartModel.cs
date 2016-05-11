@@ -37,7 +37,8 @@ namespace Ch24ShoppingCartMVC.Models {
 		}
 
 		private void AddItemToDataStore(CartViewModel model) {   //Add the AddedProduct to the cart
-			GetCartFromDataStore().Add(model.AddedProduct);
+			model.Cart.Add(model.AddedProduct);
+			HttpContext.Current.Session["cart"] = model.Cart;
 		}
 
 		public void AddToCart(CartViewModel model) {
