@@ -5,5 +5,6 @@ using System.Web;
 
 namespace Ch24ShoppingCartMVC.Models {
 	public class CheckOutModel {
+		
 	}
 }
