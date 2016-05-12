@@ -33,6 +33,7 @@ namespace Ch24ShoppingCartMVC.Controllers {
          //Assign model to the TempData
          TempData["cart"] = model;
          return RedirectToAction("List", "Cart");
+
       }
 
    }
