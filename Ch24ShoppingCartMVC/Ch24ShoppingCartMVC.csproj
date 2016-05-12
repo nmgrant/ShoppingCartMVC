@@ -130,14 +130,14 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
     <Compile Include="Controllers\CartController.cs" />
-    <Compile Include="Controllers\CheckOutController.cs" />
+    <Compile Include="Controllers\CheckoutController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\OrderController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Models\CartModel.cs" />
-    <Compile Include="Models\CheckOutModel.cs" />
+    <Compile Include="Models\CheckoutModel.cs" />
     <Compile Include="Models\DataAccess\Halloween.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -195,6 +195,7 @@
     <Content Include="Content\Images\Products\superman1.jpg" />
     <Content Include="Content\Images\Products\tlm1.jpg" />
     <Content Include="Content\Images\Products\vader1.jpg" />
+    <Content Include="Content\Images\visa.png" />
     <Content Include="Content\Main.css" />
     <Content Include="Content\Order.css" />
     <Content Include="Content\themes\base\images\ui-bg_flat_0_aaaaaa_40x100.png" />
